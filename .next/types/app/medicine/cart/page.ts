@@ -1,4 +1,4 @@
-// File: C:\Users\91626\Documents\medicure\app\medicine\cart\page.tsx
+// File: e:\Downloads\medicure\app\medicine\cart\page.tsx
 import * as entry from '../../../../../app/medicine/cart/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

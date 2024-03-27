@@ -1,4 +1,4 @@
-// File: C:\Users\91626\Documents\medicure\app\doctor\booknow\page.tsx
+// File: e:\Downloads\medicure\app\doctor\booknow\page.tsx
 import * as entry from '../../../../../app/doctor/booknow/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

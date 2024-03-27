@@ -1,4 +1,4 @@
-// File: C:\Users\91626\Documents\medicure\app\doctor\confirm\page.tsx
+// File: e:\Downloads\medicure\app\doctor\confirm\page.tsx
 import * as entry from '../../../../../app/doctor/confirm/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

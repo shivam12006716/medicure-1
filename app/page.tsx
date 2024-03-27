@@ -1,9 +1,17 @@
 import React from 'react'
 import { FaAngleRight } from "react-icons/fa";
 import Link from 'next/link'
+import { App as CapacitorApp } from '@capacitor/app';
 
 
 const page = () => {
+  CapacitorApp.addListener('backButton', ({canGoBack}) => {
+    if(!canGoBack){
+      CapacitorApp.exitApp();
+    } else {
+      window.history.back();
+    }
+  });
   return (
     <div className='h-screen flex flex-col gap-1 justify-center items-center bg-slate-100 '>
       <img src="https://github.com/sandeeppandey6800/personal-portfolio/blob/master/favicon.png?raw=true" height="36px" width="36px"/>
